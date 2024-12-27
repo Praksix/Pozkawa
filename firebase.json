@@ -1,0 +1,11 @@
+{
+  "hosting": {
+    "site": "pozkawa",
+    "public": ".next/server/pages",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
