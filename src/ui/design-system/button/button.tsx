@@ -1,6 +1,6 @@
 import { IconProps } from "@/types/iconProps";
 import clsx from "clsx";
-import { Icon } from "next/dist/lib/metadata/types/metadata-types";
+//import { Icon } from "next/dist/lib/metadata/types/metadata-types";
 
 
 interface Props {
@@ -10,7 +10,7 @@ interface Props {
     iconTheme?: "accent" | "secondary" | "gray";
     iconPosition?: "left" | "right";
     disabled?: boolean;
-    isLoading?: boolean;
+   // isLoading?: boolean;
     children?: React.ReactNode;
 }
 
@@ -21,7 +21,7 @@ export const Button = ({
     iconTheme = "accent",
     iconPosition = "right",
     disabled,
-    isLoading,
+    //isLoading,
     children,
 }: Props) => {
 

@@ -1,7 +1,7 @@
 
 import { Seo } from "@/ui/components/seo";
 import { Button } from "@/ui/design-system/button/button";
-import { Typography } from "@/ui/design-system/typography/typography";
+//import { Typography } from "@/ui/design-system/typography/typography";
 
 //déclaration icone
 import { RiBattery2ChargeFill, RiBattery2ChargeLine } from "react-icons/ri";
